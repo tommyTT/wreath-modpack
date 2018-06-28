@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:entrail",
+      "entries": [
+        {
+          "entryName": "dmonsters:entrailFlesh",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "dmonsters:entrailflesh"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dmonsters:entrail",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "minecraft:red_mushroom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.75,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

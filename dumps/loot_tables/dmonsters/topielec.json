@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:topielec",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dmonsters:topielec",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.5,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

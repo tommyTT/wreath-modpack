@@ -1,0 +1,179 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "randomthings:summoningPendulum",
+      "entries": [
+        {
+          "entryName": "randomthings:summoningPendulum",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "randomthings:summoningpendulum"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

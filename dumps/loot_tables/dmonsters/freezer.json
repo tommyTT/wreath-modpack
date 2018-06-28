@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:freezer",
+      "entries": [
+        {
+          "entryName": "minecraft:stained_glass",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stained_glass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dmonsters:freezer",
+      "entries": [
+        {
+          "entryName": "minecraft:packed_ice",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:packed_ice"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:flint",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.75,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

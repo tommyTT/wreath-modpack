@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:wideman",
+      "entries": [
+        {
+          "entryName": "dmonsters:widemanSpine",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "dmonsters:widemanspine"
+        },
+        {
+          "entryName": "minecraft:iron_bars",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_bars"
+        },
+        {
+          "entryName": "minecraft:rail",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rail"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.75,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

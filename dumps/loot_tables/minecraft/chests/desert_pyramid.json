@@ -1,0 +1,284 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:golden_apple#0",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        },
+        {
+          "entryName": "astralsorcery:constellation_paper",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "name": "astralsorcery:itemconstellationpaper"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:sand",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sand"
+        },
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "moms_spaghetti",
+      "entries": [
+        {
+          "entryName": "moms_spaghetti",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "name": "tconstruct:spaghetti"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

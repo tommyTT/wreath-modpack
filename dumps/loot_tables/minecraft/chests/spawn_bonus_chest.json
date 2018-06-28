@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool2",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:fish",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "pool3",
+      "entries": [
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:planks",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:planks"
+        },
+        {
+          "entryName": "minecraft:log",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:log"
+        },
+        {
+          "entryName": "minecraft:log2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:log2"
+        },
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 5,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

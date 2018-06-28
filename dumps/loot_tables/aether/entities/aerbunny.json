@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "name": "string",
+      "entries": [
+        {
+          "entryName": "aether:cloudtwine",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether:cloudtwine"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

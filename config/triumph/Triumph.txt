@@ -1,0 +1,4 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)

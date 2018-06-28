@@ -1,0 +1,13 @@
+[
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "evilcraft:werewolf",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

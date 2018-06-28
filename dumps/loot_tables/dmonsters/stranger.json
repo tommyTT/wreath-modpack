@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:stranger",
+      "entries": [
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dmonsters:stranger",
+      "entries": [
+        {
+          "entryName": "minecraft:baked_potato",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:baked_potato"
+        },
+        {
+          "entryName": "minecraft:leather_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "entryName": "minecraft:leather_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "entryName": "minecraft:leather_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather_chestplate"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 1.0,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "result": "default",
+    "mod": [
+      "aether",
+      "evilcraft",
+      "matteroverdrive",
+      "thermalfoundation",
+      "dmonsters"
+    ],
+    "inbuilding": false
+  },
+  {
+    "result": "deny",
+    "spawner": false
+  }
+]

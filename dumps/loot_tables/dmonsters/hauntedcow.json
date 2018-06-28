@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "name": "dmonsters:hauntedcow",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"Cow\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dmonsters:hauntedcow",
+      "entries": [
+        {
+          "entryName": "dmonsters:sunlightdrop",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "dmonsters:sunlightdrop"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.15,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
+}
